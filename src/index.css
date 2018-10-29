@@ -1,14 +1,47 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.form-container {
+    padding: 3vw 5vw;
+    border-radius: 5px;
+    background: white;
+    margin-top: 5vw;
+    background: white !important;
+    background-clip: border-box !important;
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: .25rem !important;
+}
+
+.danger-color {
+    background-color: #dc3545;
+}
+
+.card-body {
+    background: white !important;
+    background-clip: border-box !important;
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: .25rem !important;
+}
+
+.card {
+    padding: 2vw;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+.submit-form {
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-outline-secondary {
+    color: #cdd4d9 !important;
+    border-color: #ccd4d9 !important;
+}
+
+.btn-outline-success {
+    color: #e83f40 !important;
+    border-color: #e83f40 !important;
 }
